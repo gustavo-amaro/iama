@@ -1,0 +1,19 @@
+{
+  "name": "ollama-chat",
+  "version": "1.0.0",
+  "description": "Chat básico com streaming usando Ollama",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "ollama": "^0.5.14"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
