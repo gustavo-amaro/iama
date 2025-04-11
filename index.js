@@ -23,7 +23,7 @@ async function chat(message, res) {
     ];
 
     const response = await ollama.chat({
-      model: "gemma3:4b",
+      model: "gemma3:1b",
       messages: [...messagesPrequel, { role: "user", content: message }],
       stream: true,
     });
